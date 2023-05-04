@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div  class="text-center">
+            <h1 class="display-4 center">Here are Some Numbers</h1>
+            <br>
+    <div class="row">
+            <div class="border border-dark text-center col-md-2 offset-md-5">
+            @{
+        List<int> IntList = new List<int>() {42, 87, 56, 3, 42};
+            foreach (int num in IntList)
+            {
+                <p>@num</p>
+            }
+    }
+    </div>
+    </div>
+    </div>
+
+
+
+</body>
+</html>
